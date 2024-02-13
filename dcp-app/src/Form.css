@@ -1,0 +1,124 @@
+:root {
+  --tuGold: #ffbb00;
+  --tuGraphite: #3c3c3c;
+}
+body {
+  font-family: figtree, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+
+.planTitle {
+  margin-top: 200px;
+  text-align: center;
+  font-size: 40pt;
+  font-weight: 400;
+}
+button,
+input,
+select {
+  cursor: pointer;
+  border-radius: 5px;
+  color: var(--tuGraphite);
+}
+.topInfo {
+  width: 100vw;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 15pt;
+  font-weight: 300;
+}
+.studentInfo,
+.advisorInfo,
+.majorInfo {
+  margin: 10px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.studentNameContainer,
+.studentEmailContainer,
+.advisorNameContainer,
+.advisorEmailContainer {
+  margin: 10px 0px;
+}
+.topInfo input,
+select {
+  margin: 0px 40px 0px 10px;
+  font-size: 15pt;
+}
+
+fieldset {
+  margin: 10px 20px;
+  border-radius: 10px;
+}
+.allSemesters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+button {
+  padding: 8px 8px;
+  font-size: 12pt;
+}
+.semester {
+  font-size: 13pt;
+}
+.semester input {
+  margin: 10px 10px;
+  font-size: 13pt;
+}
+.semesterInfo,
+.oneClass {
+  margin: 10px 10px;
+}
+.semesterInfo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.oneClass {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.deleteCourseBtn {
+  background-color: transparent;
+  font-size: 15pt;
+  border: none;
+}
+.courseButtons {
+  display: flex;
+  justify-content: center;
+}
+.courseBtn {
+  margin: 5px 10px;
+}
+.bottomButtons {
+  display: flex;
+  justify-content: center;
+  margin: 10px 10px;
+}
+.bottomButton {
+  margin: 0px 10px;
+}
+@media screen and (max-width: 720px) {
+  .topInfo,
+  .topInfo input,
+  select,
+  button,
+  .semester,
+  .deleteCourseBtn,
+  .semester input,
+  .bottomButton {
+    font-size: 12pt;
+  }
+}

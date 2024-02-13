@@ -1,0 +1,51 @@
+:root {
+  --tuGold: #ffbb00;
+  --tuGraphite: #3c3c3c;
+}
+.tuFooter {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  width: 100vw;
+  color: white;
+  padding-top: 25px;
+  padding-bottom: 5px;
+  font-size: 15pt;
+  font-weight: 500;
+}
+.tuUpperFooter {
+  display: flex;
+  justify-content: space-around;
+}
+
+.tuFooterCenter {
+  display: flex;
+  justify-content: space-between;
+  width: 30vw;
+}
+
+.tuFooterRight {
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+.tuFooterRightText {
+  line-height: normal;
+}
+.usmMessage {
+  text-align: center;
+}
+
+@media screen and (max-width: 960px) {
+  .tuUpperFooter {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10vw;
+  }
+  .tuFooterCenter {
+    width: 50vw;
+  }
+}
