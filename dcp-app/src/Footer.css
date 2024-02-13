@@ -49,3 +49,12 @@
     width: 50vw;
   }
 }
+@media screen and (max-width: 720px) {
+  .tuUpperFooter {
+    display: flex;
+    flex-direction: row;
+  }
+  .tuFooterCenter {
+    width: 100vw;
+  }
+}
