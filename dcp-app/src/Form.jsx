@@ -24,9 +24,30 @@ export default function Form() {
   function generatePdf() {
     const formElement = document.getElementById("pdfForm");
     html2canvas(formElement).then((canvas) => {
-      const imgData = canvas.toDataURL("image/png");
-      const pdf = new jsPDF();
-      pdf.addImage(imgData, "JPEG", 0, 0);
+      var imgWidth = 210;
+      var pageHeight = 290;
+      var imgHeight = (canvas.height * imgWidth) / canvas.width;
+      var heightLeft = imgHeight;
+
+      var pdf = new jsPDF("p", "mm", "a4");
+      var position = 0;
+      var pageData = canvas.toDataURL("image/jpg", 1.0);
+      var imgData = encodeURIComponent(pageData);
+      pdf.addImage(imgData, "PNG", 0, position, imgWidth, imgHeight);
+      pdf.setLineWidth(5);
+      pdf.setDrawColor(255, 255, 255);
+      pdf.rect(0, 0, 210, 295);
+      heightLeft -= pageHeight;
+
+      while (heightLeft >= 0) {
+        position = heightLeft - imgHeight;
+        pdf.addPage();
+        pdf.addImage(imgData, "PNG", 0, position, imgWidth, imgHeight);
+        pdf.setLineWidth(5);
+        pdf.setDrawColor(255, 255, 255);
+        pdf.rect(0, 0, 210, 295);
+        heightLeft -= pageHeight;
+      }
       pdf.save("DCP.pdf");
     });
   }

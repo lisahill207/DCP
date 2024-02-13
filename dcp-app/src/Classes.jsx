@@ -19,15 +19,17 @@ export default function Classes({ deleteSemester, semesterId }) {
   return (
     <>
       {courses.length === 0 && "Click to add a class"}
-      {courses.map((course) => {
-        return (
-          <OneClass
-            {...course}
-            courseId={course.id}
-            deleteCourse={deleteCourse}
-            key={course.id}
-          />
-        );
+      {courses.map((course, index) => {
+        if (index < 9) {
+          return (
+            <OneClass
+              {...course}
+              courseId={course.id}
+              deleteCourse={deleteCourse}
+              key={course.id}
+            />
+          );
+        }
       })}
       <div className="courseButtons">
         <button onClick={addCourse} className="courseBtn addCourseBtn">
