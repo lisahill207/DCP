@@ -7,10 +7,10 @@ import "./Header.css";
 
 export default function App() {
   return (
-    <section>
+    <body>
       <PlanHeaders />
       <Form />
       <Footer />
-    </section>
+    </body>
   );
 }
