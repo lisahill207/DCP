@@ -121,4 +121,7 @@ button {
   .bottomButton {
     font-size: 12pt;
   }
+  .planTitle {
+    font-size: 25pt;
+  }
 }
