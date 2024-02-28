@@ -11,7 +11,7 @@
 .tuNavBars {
   position: fixed;
   top: 0;
-  width: 100vw;
+  width: 100dvw;
 }
 .upperNavBar {
   display: flex;
@@ -71,17 +71,17 @@
   border-bottom: 0.5px solid var(--tuGraphite);
   display: flex;
   justify-content: space-between;
-  width: 100vw;
+  width: 100dvw;
 }
 .leftGraphics {
-  width: 30vw;
+  width: 30dvw;
 }
 .rightLinks {
   display: flex;
   justify-content: space-around;
   align-items: center;
   margin-right: 10px;
-  width: 70vw;
+  width: 70dvw;
 }
 #parallelogram {
   border: 2px solid var(--tuGold);
@@ -92,7 +92,7 @@
   align-items: center;
 }
 .tuLogo {
-  max-width: 30vw;
+  max-width: 30dvw;
   transform: skew(-20deg);
 }
 .lowerLinks {
@@ -122,7 +122,7 @@
     background-color: var(--tuWhite);
     position: fixed;
     top: 0;
-    width: 100vw;
+    width: 100dvw;
     height: 100px;
     border-bottom: solid var(--tuGlenMist);
     display: flex;
@@ -133,7 +133,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    max-width: 30vw;
+    max-width: 30dvw;
   }
   .mobileParallelogram1 {
     border: 2px solid var(--tuGold);
@@ -162,7 +162,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    width: 70vw;
+    width: 70dvw;
   }
   .mobileSearch,
   .mobileHamburger {

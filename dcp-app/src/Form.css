@@ -25,7 +25,7 @@ select {
   color: var(--tuGraphite);
 }
 .topInfo {
-  width: 100vw;
+  width: 100dvw;
   padding: 10px;
   display: flex;
   flex-direction: column;
