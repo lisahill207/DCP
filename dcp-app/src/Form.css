@@ -37,7 +37,7 @@ select {
 .studentInfo,
 .advisorInfo,
 .majorInfo {
-  margin: 10px 10px;
+  padding: 10px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;

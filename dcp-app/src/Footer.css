@@ -7,9 +7,9 @@
   flex-direction: column;
   background-color: black;
   width: 100dvw;
+  margin: 0px;
   color: white;
-  padding-top: 25px;
-  padding-bottom: 5px;
+  padding: 25px 0px 5px 0px;
   font-size: 15pt;
   font-weight: 500;
 }
