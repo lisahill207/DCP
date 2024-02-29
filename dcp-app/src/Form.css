@@ -30,7 +30,7 @@ select {
 }
 .topInfo {
   width: 100dvw;
-  padding: 15px;
+  padding: 15px 0px;
   display: flex;
   flex-direction: column;
   justify-content: center;
