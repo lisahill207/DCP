@@ -3,9 +3,11 @@
   --tuGraphite: #3c3c3c;
 }
 footer {
+  border: solid red;
   width: 100dvw;
 }
 .tuFooter {
+  border: solid red;
   display: flex;
   flex-direction: column;
   background-color: black;
@@ -17,18 +19,21 @@ footer {
   font-weight: 500;
 }
 .tuUpperFooter {
+  border: solid red;
   display: flex;
   justify-content: space-around;
   width: 100dvw;
 }
 
 .tuFooterCenter {
+  border: solid red;
   display: flex;
   justify-content: space-between;
   width: 30dvw;
 }
 
 .tuFooterRight {
+  border: solid red;
   margin-right: 10px;
   display: flex;
   flex-direction: column;
@@ -39,6 +44,7 @@ footer {
   line-height: normal;
 }
 .usmMessage {
+  border: solid red;
   text-align: center;
   width: 100dvw;
   height: 40px;
