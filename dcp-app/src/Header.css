@@ -12,6 +12,8 @@
   position: fixed;
   top: 0;
   width: 100dvw;
+  margin: 0px;
+  padding: 0px;
 }
 .upperNavBar {
   display: flex;
@@ -80,8 +82,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-right: 10px;
-  width: 70dvw;
+  padding-right: 20px;
 }
 #parallelogram {
   border: 2px solid var(--tuGold);
