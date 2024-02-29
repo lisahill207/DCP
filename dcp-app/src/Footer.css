@@ -56,7 +56,8 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-left: 10dvw;
+    padding-left: 10dvw;
+    width: 80dvw;
   }
   .tuFooterRight,
   .tuFooterCenter,
