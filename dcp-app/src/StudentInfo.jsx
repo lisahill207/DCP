@@ -10,7 +10,7 @@ export default function StudentInfo() {
           id="studentName"
           name="studentName"
           placeholder="First Last"
-          aria-required="false"
+          aria-required="true"
         />
       </div>
       <div className="studentEmailContainer">
@@ -21,8 +21,8 @@ export default function StudentInfo() {
           type="email"
           id="studentEmail"
           name="studentEmail"
-          placeholder="student@students.towson.edu"
-          aria-required="false"
+          placeholder="Student's TU Email"
+          aria-required="true"
         />
       </div>
     </div>

@@ -8,7 +8,7 @@ export default function AdvisorInfo() {
           id="advisorName"
           name="advisorName"
           placeholder="First Last"
-          aria-required="false"
+          aria-required="true"
         />
       </div>
       <div className="advisorEmailContainer">
@@ -17,8 +17,8 @@ export default function AdvisorInfo() {
           type="email"
           id="advisorEmail"
           name="advisorEmail"
-          placeholder="advisor@towson.edu"
-          aria-required="false"
+          placeholder="Advisor's TU Email"
+          aria-required="true"
         />
       </div>
     </div>

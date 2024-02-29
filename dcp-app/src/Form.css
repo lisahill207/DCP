@@ -3,6 +3,7 @@
   --tuGraphite: #3c3c3c;
 }
 body {
+  border: solid red;
   font-family: "Figtree", sans-serif;
   font-weight: 300;
   font-style: normal;
@@ -15,6 +16,7 @@ body {
   margin: 0px;
 }
 .planTitle {
+  border: solid red;
   width: 100dvw;
   padding: 100px 0px 0px;
   text-align: center;
@@ -29,6 +31,7 @@ select {
   color: var(--tuGraphite);
 }
 .topInfo {
+  border: solid red;
   width: 100dvw;
   padding: 15px 0px;
   display: flex;
@@ -109,6 +112,7 @@ button {
   margin: 5px 10px;
 }
 .bottomButtons {
+  border: solid red;
   width: 100dvw;
   margin: 0px;
   display: flex;
