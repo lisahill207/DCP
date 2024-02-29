@@ -11,10 +11,6 @@ body {
   margin: 0px;
   padding: 0px;
 }
-#pdfForm {
-  width: 100dvw;
-  margin: 0px;
-}
 .planTitle {
   border: solid red;
   width: 100dvw;
@@ -44,7 +40,8 @@ select {
 .studentInfo,
 .advisorInfo,
 .majorInfo {
-  padding: 10px;
+  border: solid red;
+  padding: 10px 0px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -65,10 +62,12 @@ select {
 }
 
 fieldset {
+  border: solid rerd;
   margin: 10px 20px;
   border-radius: 10px;
 }
 .allSemesters {
+  border: solid red;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -138,7 +137,7 @@ button {
   }
   .topInfo input,
   select {
-    margin: 0px 5px;
+    margin: 0px 2px;
   }
   #major {
     width: 60dvw;

@@ -2,7 +2,7 @@ export default function AdvisorInfo() {
   return (
     <div className="advisorInfo">
       <div className="advisorNameContainer">
-        <label htmlFor="advisorName">Advisor's Name:</label>
+        <label htmlFor="advisorName">Advisor Name:</label>
         <input
           type="text"
           id="advisorName"
