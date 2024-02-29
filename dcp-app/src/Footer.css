@@ -50,6 +50,11 @@ footer {
     align-items: flex-start;
     margin-left: 10dvw;
   }
+  .tuFooterRight,
+  .tuFooterCenter,
+  .tuFooterLeft {
+    margin: 3px;
+  }
   .tuFooterCenter {
     width: 75dvw;
   }
@@ -57,6 +62,6 @@ footer {
 @media screen and (max-width: 720px) {
   .tuFooterCenter {
     max-width: 100dvw;
-    margin-right: 5pt;
+    margin-right: 5px;
   }
 }

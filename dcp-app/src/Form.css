@@ -7,10 +7,13 @@ body {
   font-weight: 300;
   font-style: normal;
   width: 100dvw;
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
 }
-
+#pdfForm {
+  width: 100dvw;
+  margin: 0px;
+}
 .planTitle {
   margin-top: 200px;
   text-align: center;
