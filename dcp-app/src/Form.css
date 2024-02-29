@@ -132,4 +132,8 @@ button {
   .planTitle {
     font-size: 20pt;
   }
+  .topInfo input,
+  select {
+    margin: 0px;
+  }
 }
