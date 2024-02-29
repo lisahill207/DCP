@@ -3,6 +3,8 @@
   --tuGraphite: #3c3c3c;
 }
 body {
+  overflow-x: hidden;
+
   font-family: "Figtree", sans-serif;
   font-weight: 300;
   font-style: normal;
