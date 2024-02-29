@@ -107,9 +107,10 @@ button {
   margin: 5px 10px;
 }
 .bottomButtons {
+  width: 100dvw;
   display: flex;
   justify-content: center;
-  margin: 10px 10px;
+  padding: 10px 10px;
 }
 .bottomButton {
   margin: 0px 10px;
