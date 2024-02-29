@@ -13,10 +13,8 @@ body {
 #pdfForm {
   width: 100dvw;
   margin: 0px;
-  border: solid black;
 }
 .planTitle {
-  border: solid black;
   width: 100dvw;
   padding: 100px 0px 0px;
   text-align: center;
@@ -111,7 +109,6 @@ button {
   margin: 5px 10px;
 }
 .bottomButtons {
-  border: solid black;
   width: 100dvw;
   margin: 0px;
   display: flex;
