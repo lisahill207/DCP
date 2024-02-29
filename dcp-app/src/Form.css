@@ -134,6 +134,9 @@ button {
   }
   .topInfo input,
   select {
-    margin: 0px;
+    margin: 0px 5px;
+  }
+  #major {
+    width: 60dvw;
   }
 }
