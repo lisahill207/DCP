@@ -53,9 +53,9 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <p className="usmMessage">
+      <div className="usmMessage">
         A University System of Maryland Member Institution
-      </p>
+      </div>
     </footer>
   );
 }

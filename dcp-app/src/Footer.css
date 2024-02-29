@@ -41,6 +41,8 @@ footer {
 .usmMessage {
   text-align: center;
   width: 100dvw;
+  height: 40px;
+  padding: 20px 0px;
 }
 
 @media screen and (max-width: 960px) {
